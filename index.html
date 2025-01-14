@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Branding</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">KrishnaNnd</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">KrishnaNnd</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#tentang" onclick="toggleMenu()">Tentang</a></li>
+            <li><a href="#portofolio" onclick="toggleMenu()">Portofolio</a></li>
+            <li><a href="#kontak" onclick="toggleMenu()">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="section__pic-container">
+        <img src="./assets/foto1.jpg" alt="Krishna picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Halo, Saya</p>
+        <h1 class="title">Krishna Nanda Danisswara</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.location.href='./assets/CVKRISHNA.pdf';"
+          >
+            Download CV
+          </button>
+
+          <button
+            class="btn btn-color-2"
+            onclick="window.location.href='#kontak';"
+          >
+            Hubungi Saya
+          </button>
+        </div>
+        <div id="socials-container">
+          <i
+            class="fab fa-linkedin icon"
+            onclick="location.href=' https://id.linkedin.com/in/krishna-nanda-danisswara-75bb58270 '"
+            aria-label="My LinkedIn profile"
+          ></i>
+          <i
+            class="fab fa-github icon"
+            onclick="location.href='https://github.com/Naa07'"
+            aria-label="My GitHub profile"
+          ></i>
+        </div>
+      </div>
+    </section>
+    <section id="tentang">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About <span style="color: #f39c12">Me</span></h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/foto2.jpg"
+            alt="Profile picture"
+            class="tentang-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Saya adalah seorang pengembang FrontEnd yang kreatif dan
+              berorientasi pada hasil, dengan pengalaman dalam memimpin dan
+              mengelola proyek-proyek inovatif di Universitas 17 Agustus 1945.
+              Dengan latar belakang yang kuat dalam manajemen acara dan
+              produksi, saya telah berhasil merancang dan melaksanakan berbagai
+              inisiatif yang tidak hanya memenuhi, tetapi juga melampaui
+              ekspektasi. Keterampilan teknis saya mencakup HTML, CSS,
+              JavaScript, dan Laravel, yang memungkinkan saya untuk menciptakan
+              pengalaman pengguna yang menarik dan fungsional. Saya percaya
+              bahwa teknologi harus digunakan untuk memecahkan masalah dan
+              meningkatkan kehidupan, dan saya berkomitmen untuk terus belajar
+              dan beradaptasi dengan tren terbaru di industri. Sebagai seorang
+              pemimpin yang kolaboratif, saya memiliki kemampuan untuk
+              menginspirasi tim dan mengelola sumber daya dengan efisien,
+              memastikan setiap proyek berjalan lancar dan sukses. Saya mencari
+              kesempatan untuk bergabung dengan tim yang dinamis di mana saya
+              dapat berkontribusi dengan ide-ide segar dan inovatif, serta terus
+              berkembang dalam karir saya di dunia teknologi.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">
+        <span style="color: #f39c12">Experi</span><span>ence</span>
+      </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hard Skiils</h2>
+            <div class="article-container">
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Laravel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Ms Word</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Ms Excel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skiils</h2>
+            <div class="article-container">
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Kepemimpinan</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Manajemen Waktu</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Komunikasi Efektif</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Bekerja dalam Tim</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Pemecahan Masalah</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fas fa-check-circle icontentang"></i>
+                <div>
+                  <h3>Kreativitas</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">
+        Organizational <span style="color: #f39c12">Experience</span>
+      </h1>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-user"></i></div>
+          <div class="timeline-content">
+            <h3>Sie Acara Technofest</h3>
+            <p>
+              Menyusun konsep dan tema acara sesuai dengan tujuan dan visi dari
+              kepanitiaan, Melakukan evaluasi setelah acara untuk
+              mengidentifikasi kekuatan dan kelemahan.
+            </p>
+            <p class="date">Mei 2023</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-lightbulb"></i></div>
+          <div class="timeline-content">
+            <h3>Ketua Panitia Acara PKKMB 2023</h3>
+            <p>
+              Memimpin tim dalam merencanakan dan melaksanakan kegiatan dengan
+              lebih dari 300 peserta, Mengelola sumber daya yang tersedia,
+              termasuk anggaran, waktu, dan tenaga kerja untuk memastikan
+              kelancaran dan suksesnya acara.
+            </p>
+            <p class="date">Agustus 2023</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-cogs"></i></div>
+          <div class="timeline-content">
+            <h3>Divisi Penelitian dan Pengembangan Organisasi</h3>
+            <p>
+              Mempelajari , merencanakan dan melaksanakan kegiatan yang
+              berhubungan dengan kinerja Organisasi. Mengkoordinir pengembangan
+              Program Kreatifitas Mahasiswa (PKM) di Teknik Informatika
+              Universitas 17 Agustus 1945 Surabaya.
+            </p>
+            <p class="date">2023-2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portofolio">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">
+        <span style="color: #f39c12">Pro</span><span>jects</span>
+      </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project.png"
+                alt="Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Website Desa Wisata Leuwimalang
+            </h2>
+            <p>
+              Website tersebut merupakan project dari suatu Desa di Bogor yang
+              belum memiliki potensi sebagai desa argowisata tetapi
+              masyarakatnya masih minim pengetahuan terhadap teknologi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact <span style="color: #f39c12">Me</span></h1>
+      <div class="contact-box">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p>
+              Email: <a href="mailto:krishnanandad07@gmail.com">krishnannda</a>
+            </p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp contact-icon"></i>
+            <p>
+              WhatsApp:
+              <a href="https://wa.me/6289653513104" target="_blank"
+                >+62 812-3456-7890</a
+              >
+            </p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram contact-icon"></i>
+            <p>
+              Instagram:
+              <a href="https://www.instagram.com/krishna.aja" target="_blank"
+                >@krishna.aja</a
+              >
+            </p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin contact-icon"></i>
+            <p>
+              LinkedIn:
+              <a
+                href=" https://id.linkedin.com/in/krishna-nanda-danisswara-75bb58270 "
+                target="_blank"
+                >Krishna Nanda</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <nav>
+          <div class="nav-footer-container">
+            <ul class="nav-footer">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#tentang">Tentang</a></li>
+              <li><a href="#portofolio">Portofolio</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="social-icons">
+          <a
+            href="http://fb.com/krishna.org.ganteng"
+            target="_blank"
+            class="social-icon"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <a
+            href=" https://id.linkedin.com/in/krishna-nanda-danisswara-75bb58270 "
+            target="_blank"
+            class="social-icon"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/krishna.aja/profilecard/?igsh=aW9ycXRlMmZieXI1 "
+            target="_blank"
+            class="social-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+
+        <p>
+          &copy; 2025 Krishna Nanda Danisswara|EAS PAP. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
